@@ -1,0 +1,79 @@
+.body{
+	margin:0px;
+	padding:0px;
+}
+
+.head{
+	background-color:white;
+	height:180px;
+	width:100%;
+	overflow:hidden;
+}
+
+.logo{
+	width:30%;
+	float:left;
+}
+
+.logo img{
+	height:180px;
+	width:300px;
+}
+
+.menu{
+	width:70%;
+	float:left;
+}
+
+.menu ul li{
+	display:inline-block;
+	margin: 0px 5px;
+}
+
+.menu ul li a{
+	text-decoration:none;
+	color:black;
+	font-style:Calibri;
+	font-size:35px;
+	padding:20px 15px;
+	background-color:pink;
+}
+
+.menu ul{
+	text-align:right;
+}
+
+.menu ul li a:hover{
+	background-color:yellow;
+	color:red;
+}
+
+.main{
+	overflow:hidden;
+	width:100%;
+}
+
+.contain{
+	width:60%;
+	float:left;
+	margin-right:5px;
+}
+
+.contain p{
+	padding-right:15px;
+}
+
+.contain table img{
+	width:383px;
+	margin: 0px 3px;
+}
+
+.sidebar{
+	width:40%;
+	float:left;
+}
+
+.sidebar img{
+	height:400px;
+	width:320px;
+}
